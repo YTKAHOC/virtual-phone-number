@@ -1,0 +1,8 @@
+# Exclude build artifacts
+Cargo.lock linguist-generated
+*.bat text eol=crlf
+*.ts linguist-detectable
+*.tsx linguist-detectable
+*.html linguist-vendored
+
+public/**/*.html linguist-vendored
